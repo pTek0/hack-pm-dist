@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-08-06T10:07:50+09:00",
+  "domain": "hacking",
+  "overall_status": "🟢",
+  "pm": "GLM 5.2",
+  "runtime": "docker:glm-hacking-sandbox (Windows Docker Desktop, sandboxed, exec=yolo)",
+  "board": "hacking-pm/PM.md",
+  "count": 7,
+  "projects": [
+    {
+      "name": "car-pentest",
+      "status": "🔵",
+      "category": "차량 CAN/UDS 학습",
+      "stage": "WSL2+vcan+ICSim 세팅 + 셀프호스팅 학습가이드 서버",
+      "next": "ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
+      "last_activity": "08-02"
+    },
+    {
+      "name": "ship-pentest",
+      "status": "🔵",
+      "category": "선박 IT/OT 비파괴 예습",
+      "stage": "스캐폴드 + 시뮬레이터 검증 + 인게이지먼트 콘솔",
+      "next": "1주차 코어랩(NMEA/Modbus 패시브 캡처→분석)",
+      "last_activity": "08-03"
+    },
+    {
+      "name": "InsecureBankv2",
+      "status": "🔵",
+      "category": "모바일 취약점 진단 실습",
+      "stage": "정적분석 보고서 완료(정체)",
+      "next": "동적분석(에뮬레이터/Frida/Burp)",
+      "last_activity": "07-20"
+    },
+    {
+      "name": "pentest-toolkit",
+      "status": "🟢",
+      "category": "진단 자동화 도구",
+      "stage": "쉐도우 모드(정체, 마지막 07-17)",
+      "next": "실무 로그 축적 → 정확도 검증 후 실전",
+      "last_activity": "07-31"
+    },
+    {
+      "name": "glm-aider-lab",
+      "status": "🟢",
+      "category": "GLM 로컬 에이전트 랩(OpenClaw)",
+      "stage": "OpenClaw 데몬 상시가동, 스코프 pentest·exec cautious",
+      "next": "실사용 · yolo 전환 판단",
+      "last_activity": "08-05"
+    },
+    {
+      "name": "ollama",
+      "status": "🔵",
+      "category": "GLM 5.2 펜테스트 워크스페이스",
+      "stage": "OpenClaw 워크스페이스 부트스트랩 · 허브 등록",
+      "next": "정체성 확정 · 실제 착수(Opus 4.8)",
+      "last_activity": "08-05"
+    },
+    {
+      "name": "cloud-eng-course",
+      "status": "🔵",
+      "category": "클라우드 엔지니어링 학습(보안 연계)",
+      "stage": "리서치·설계 완료 + 스캐폴드",
+      "next": "착수 벤더 확정(권고 로컬→GCP)",
+      "last_activity": "08-05"
+    }
+  ],
+  "note": "GLM 5.2 가 총괄하는 해킹 도메인 요약. 보드(PM.md)에서 파생. 0토큰."
+}
