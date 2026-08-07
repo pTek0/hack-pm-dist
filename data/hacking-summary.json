@@ -1,32 +1,33 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-07T17:23:00+09:00",
-  "current_phase": "7개 해킹/보안학습 프로젝트 (진행 1 · 학습 6) · 대표 🟢 · GLM 5.2 총괄",
+  "updated_at": "2026-08-07T17:38:01+09:00",
+  "current_phase": "8개 해킹/보안학습 프로젝트 (진행 2 · 학습 6) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
     "ship-pentest: 1주차 코어랩(NMEA/Modbus 패시브 캡처→분석)",
     "InsecureBankv2: 동적분석(에뮬레이터/Frida/Burp)",
     "pentest-toolkit: 실무 로그 축적 → 정확도 검증 후 실전",
-    "cloud-eng-course: 착수 벤더 확정(권고 로컬→GCP)"
+    "cloud-eng-course: 착수 벤더 확정(권고 로컬→GCP)",
+    "web-scanner: **전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다"
   ],
   "human_pending": [
-    "런타임**: GLM의 OpenClaw가 **Windows Docker Desktop의 컨테이너 `glm-hacking-sandbox`**에서 실행. 컨테이너 정의는 마운트 밖 [`../.glm-sandbox/`](../.glm-sandbox/README.md)(GLM 이 자기 정의를 못 봄). **2026-08-06 재편**: 개별 하위폴더 8개 마운트 → **단일 마운트 `hacking\\ 전체 → /workspace`**. GLM 정체성(AGENTS/SOUL/IDENTITY/HEARTBEAT/MEMORY-POLICY/error-book/memory)은 `hacking\\` 루트(Hidden, 호스트 영속)에 두어 /workspace 루트에서 읽힘(ext4 휘발 문제 해소). **WSL2 미사용**. 컨테이너 안 **exec yolo 완전 자율**. **격리 검증(2026-08-06)**: `/mnt/c`·`/mnt/e`·`/workspace/auto-invest`·`/workspace/.dashboard` 전부 `blocked_ok`, 모델 `ollama-cloud/glm-5.2`. cron: 킬스위치 5분 + PM heartbeat 1시간. (컨테이너 재생성은 [HUMAN] — 미실행.)",
-    "(지금) 수기 보드 + registry `domain` 태그 + **GLM 이양 합의**. Docker 샌드박스 스캐폴드 완료, Docker 설치 대기([HUMAN])."
+    "컨테이너 재생성은 [HUMAN] — 미실행.",
+    "Docker 샌드박스 스캐폴드 완료, Docker 설치 대기([HUMAN])."
   ],
   "metrics": {
-    "projects": 7,
-    "active": 1,
+    "projects": 8,
+    "active": 2,
     "learning": 6,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-07T17:23:00+09:00",
+  "generated_at": "2026-08-07T17:38:01+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
   "runtime": "docker:glm-hacking-sandbox (Windows Docker Desktop, sandboxed, exec=yolo)",
   "board": "hacking/PM.md",
-  "count": 7,
+  "count": 8,
   "projects": [
     {
       "name": "hack-pm",
@@ -83,6 +84,14 @@
       "stage": "",
       "next": "",
       "last_activity": ""
+    },
+    {
+      "name": "web-scanner",
+      "status": "🟢",
+      "category": "오프라인 올인원 웹 취약점 진단 자동화",
+      "stage": "**P10 완료(레이트 스로틀 영구차단 오인 수정)** — ★치명적 버그 수정: Governor.check()가 소프트 스로틀(토큰버킷 일시 고갈)을 내부에서 대기 후 재획득하여 allowed=True 반환. 기존은 allowed=False로 반환→엔진이 영구차단 오인→zap_passive header/cookie findings 조용히 누락(standard/deep=0건). 하드 거부(스코프/비파괴/킬스위치) 불변. 21 P10 테스트 추가. 373 유닛테스트 통과(P0 38+P1 19+P2 19+P3 18+P4 18+P5 23+P6 25+P6b 17+P7 28+P8 75+P9 71+P10 21+governor 39-중복)",
+      "next": "**전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다",
+      "last_activity": "08-07"
     }
   ],
   "note": "GLM 5.2 가 총괄하는 해킹 도메인 요약. 보드(PM.md)에서 파생. 0토큰."
