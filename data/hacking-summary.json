@@ -1,7 +1,7 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-13T10:23:00+09:00",
+  "updated_at": "2026-08-13T10:38:00+09:00",
   "current_phase": "8개 해킹/보안학습 프로젝트 (진행 2 · 학습 6) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
@@ -9,11 +9,13 @@
     "InsecureBankv2: 동적분석(에뮬레이터/Frida/Burp)",
     "pentest-toolkit: 실무 로그 축적 → 정확도 검증 후 실전",
     "cloud-eng-course: 착수 벤더 확정(권고 로컬→GCP)",
+    "IOS-hacking: DVIA-v2 로 iOS 랩(Phase 2–5) 착수",
     "web-scanner: **전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다"
   ],
   "human_pending": [
     "컨테이너 재생성은 [HUMAN] — 미실행.",
     "x semi-tethered)·학습 로드맵·법윤리·[HUMAN] H1~7.",
+    "route_to(오케스트레이터 밖): registry red/blue 그룹 태그(개발 PM/[HUMAN]), 해킹 탭 UI 레드/블루 구분(개발 PM apps-pm, Fable 5).",
     "[HUMAN] 결정 7건(부트로더 언락 go/no-go·외장 Wi-Fi 어댑터 구매·부대장비 예산).",
     "컨테이너 라이프사이클은 이후 오케스트레이터가 자율 관리(2026-08-10 지시) — 단 Docker 엔진 스테일소켓 크래시 시 재부팅은 [HUMAN].",
     "Docker 샌드박스 스캐폴드 완료, Docker 설치 대기([HUMAN])."
@@ -24,7 +26,7 @@
     "learning": 6,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-13T10:23:00+09:00",
+  "generated_at": "2026-08-13T10:38:00+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
@@ -75,7 +77,7 @@
     {
       "name": "cloud-eng-course",
       "status": "🔵",
-      "category": "클라우드 엔지니어링 학습(보안 연계)",
+      "category": "클라우드 엔지니어링 학습(보안 연계, 블루 근접)",
       "stage": "리서치·설계 완료 + 스캐폴드",
       "next": "착수 벤더 확정(권고 로컬→GCP)",
       "last_activity": "08-05"
@@ -83,10 +85,10 @@
     {
       "name": "IOS-hacking",
       "status": "🔵",
-      "category": "",
-      "stage": "",
-      "next": "",
-      "last_activity": ""
+      "category": "iOS 탈옥·앱 진단",
+      "stage": "palera1n 완탈 계열 준비",
+      "next": "DVIA-v2 로 iOS 랩(Phase 2–5) 착수",
+      "last_activity": "08-10"
     },
     {
       "name": "web-scanner",
