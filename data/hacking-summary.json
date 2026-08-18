@@ -1,7 +1,7 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-18T16:38:00+09:00",
+  "updated_at": "2026-08-18T16:53:00+09:00",
   "current_phase": "8개 해킹/보안학습 프로젝트 (진행 2 · 학습 6) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
@@ -13,6 +13,8 @@
     "web-scanner: **전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다"
   ],
   "human_pending": [
+    "[HUMAN] 6건.",
+    "[HUMAN] 모델/펌웨어 확인 후 Go/No-Go | 08-18",
     "컨테이너 재생성은 [HUMAN] — 미실행.",
     "x semi-tethered)·학습 로드맵·법윤리·[HUMAN] H1~7.",
     "route_to(오케스트레이터 밖): registry red/blue 그룹 태그(개발 PM/[HUMAN]), 해킹 탭 UI 레드/블루 구분(개발 PM apps-pm, Fable 5).",
@@ -26,7 +28,7 @@
     "learning": 6,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-18T16:38:00+09:00",
+  "generated_at": "2026-08-18T16:53:00+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
