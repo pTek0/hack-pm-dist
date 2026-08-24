@@ -1,8 +1,8 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-24T13:38:01+09:00",
-  "current_phase": "8개 해킹/보안학습 프로젝트 (진행 2 · 학습 6) · 대표 🟢 · GLM 5.2 총괄",
+  "updated_at": "2026-08-24T13:53:01+09:00",
+  "current_phase": "9개 해킹/보안학습 프로젝트 (진행 2 · 학습 7) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
     "ship-pentest: 1주차 코어랩(NMEA/Modbus 패시브 캡처→분석)",
@@ -23,18 +23,18 @@
     "Docker 샌드박스 스캐폴드 완료, Docker 설치 대기([HUMAN])."
   ],
   "metrics": {
-    "projects": 8,
+    "projects": 9,
     "active": 2,
-    "learning": 6,
+    "learning": 7,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-24T13:38:01+09:00",
+  "generated_at": "2026-08-24T13:53:01+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
   "runtime": "docker:glm-hacking-sandbox (Windows Docker Desktop, sandboxed, exec=yolo)",
   "board": "hacking/PM.md",
-  "count": 8,
+  "count": 9,
   "projects": [
     {
       "name": "hack-pm",
@@ -99,6 +99,14 @@
       "stage": "**P10 완료(레이트 스로틀 영구차단 오인 수정)** — ★치명적 버그 수정: Governor.check()가 소프트 스로틀(토큰버킷 일시 고갈)을 내부에서 대기 후 재획득하여 allowed=True 반환. 기존은 allowed=False로 반환→엔진이 영구차단 오인→zap_passive header/cookie findings 조용히 누락(standard/deep=0건). 하드 거부(스코프/비파괴/킬스위치) 불변. 21 P10 테스트 추가. 373 유닛테스트 통과(P0 38+P1 19+P2 19+P3 18+P4 18+P5 23+P6 25+P6b 17+P7 28+P8 75+P9 71+P10 21+governor 39-중복)",
       "next": "**전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다",
       "last_activity": "08-07"
+    },
+    {
+      "name": "injection-ledger",
+      "status": "🔵",
+      "category": "",
+      "stage": "",
+      "next": "",
+      "last_activity": ""
     }
   ],
   "note": "GLM 5.2 가 총괄하는 해킹 도메인 요약. 보드(PM.md)에서 파생. 0토큰."
