@@ -1,7 +1,7 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-31T12:38:00+09:00",
+  "updated_at": "2026-08-31T12:53:00+09:00",
   "current_phase": "9개 해킹/보안학습 프로젝트 (진행 2 · 학습 7) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
@@ -13,7 +13,7 @@
     "web-scanner: **전체 완료** — P0~P10 구현. 레이트 제한은 '느리게' 할 뿐 '잃지' 않는다"
   ],
   "human_pending": [
-    "md) | [HUMAN] ZAI_API_KEY 발급 → .",
+    "md] | [HUMAN] 키만 꽂으면 실행: K-40(Z.",
     "[HUMAN] 6건.",
     "[HUMAN] 모델/펌웨어 확인 후 Go/No-Go | 08-18",
     "컨테이너 재생성은 [HUMAN] — 미실행.",
@@ -29,7 +29,7 @@
     "learning": 7,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-31T12:38:00+09:00",
+  "generated_at": "2026-08-31T12:53:00+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
