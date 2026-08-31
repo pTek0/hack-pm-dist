@@ -1,7 +1,7 @@
 {
   "project": "hacking",
   "status": "🟢",
-  "updated_at": "2026-08-31T15:23:00+09:00",
+  "updated_at": "2026-08-31T15:38:00+09:00",
   "current_phase": "9개 해킹/보안학습 프로젝트 (진행 2 · 학습 7) · 대표 🟢 · GLM 5.2 총괄",
   "next_actions": [
     "car-pentest: ICSim/vcan 실습 모듈 착수(progress.json 미사용)",
@@ -29,7 +29,7 @@
     "learning": 7,
     "cost_usd": 0
   },
-  "generated_at": "2026-08-31T15:23:00+09:00",
+  "generated_at": "2026-08-31T15:38:00+09:00",
   "domain": "hacking",
   "overall_status": "🟢",
   "pm": "GLM 5.2",
